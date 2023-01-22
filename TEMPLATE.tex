@@ -2,6 +2,7 @@
 \documentclass[12pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{fancyhdr}
+\usepackage{titling}
 
 % MATH
 \usepackage{amsmath}
@@ -23,15 +24,15 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-\rhead{
-    John Smith\\
-    Math 101\\
-    \today
-}
-
 \title{Math 101 Homework 0}
 \author{John Smith}
 \date{\today}
+
+\rhead{
+    \theauthor\\
+    \thetitle\\
+    \today
+}
 
 \begin{document}
 
@@ -47,7 +48,6 @@
     \ruledtitle{Word Problems}
 
     \wordquestion{A swimmer is swimming northeast at 2 mph in still water.}
-   
 
 \end{enumerate}
 \end{document}

@@ -1,0 +1,34 @@
+\newcommand{\ruledtitle}[1]
+{
+    \par % ensure being in vertical mode
+    \vspace{2\baselineskip}
+    \begingroup % limit the scope for the font selection
+    \fontsize{22pt}{26.4pt}\LARGE\centering
+    \hrule % top rule
+    \vspace{3pt}% spacing
+    #1\par % end the paragraph
+    \vspace{3pt} % spacing
+    \hrule % bottom rule
+    \endgroup
+    \vspace{1\baselineskip}% space after the title
+}
+
+\newcommand{\mathquestion}[1]
+{
+    \item $#1$
+}
+
+\newcommand{\wordquestion}[1]
+{
+    \item #1
+}
+
+\newcommand{\answer}[1]
+{
+    \boxed{#1}
+}
+
+\newcommand{\questionpart}[1]
+{
+    \subitem{#1}
+}

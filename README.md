@@ -33,3 +33,9 @@ Boxes input. Same as `\boxed{}` command. Only exists for better readability in t
 ```
 
 Same as `\wordquestion`. Used in nested enumerate environments for better readability.
+
+```tex
+\begin{amatrix}{2}
+\end{amatrix}
+```
+Custom environment for augmented matrices. The argument denotes which column the constants are placed after.

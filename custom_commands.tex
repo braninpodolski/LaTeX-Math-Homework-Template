@@ -33,6 +33,16 @@
     \subitem{#1}
 }
 
+\newcommand{\arrow}[1]
+{
+    \xrightarrow{#1}
+}
+
+\newcommand{\swapRows}[2]
+{
+    \vec{r}_{#1} \xleftrightarrow{} \vec{r}_{#2}
+}
+
 % Credit to Jim Hefferon for this environment
 \newenvironment{amatrix}[1]{%
     \left[\begin{array}{@{}*{#1}{r}|r@{}}

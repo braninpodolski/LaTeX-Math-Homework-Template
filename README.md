@@ -39,3 +39,15 @@ Same as `\wordquestion`. Used in nested enumerate environments for better readab
 \end{amatrix}
 ```
 Custom environment for augmented matrices. The argument denotes which column the constants are placed after.
+
+
+```tex
+\arrow{}
+```
+Used when performing elementary matrix row operations
+
+
+```tex
+\swapRows{rowNum}{secondRowNum}
+```
+Creates an instance of a row operation arrow with a superscript double-headed arrow for row swapping

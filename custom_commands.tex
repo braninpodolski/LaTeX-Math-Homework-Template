@@ -49,6 +49,11 @@
     \end{center}
 }
 
+% Question environment; 1cm gap at end, empty otherwise; primarily for organizational purposes and code folding 
+\makeatletter
+\newenvironment{question}{\endgroup}{\begingroup \def \@currenvir{question}\edef \@currenvline{\on@line} \vspace{1cm}}
+\makeatother
+
 % Credit to Jim Hefferon for this environment
 \newenvironment{amatrix}[1]{%
     \left[\begin{array}{@{}*{#1}{r}|r@{}}

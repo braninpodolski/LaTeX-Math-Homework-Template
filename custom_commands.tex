@@ -43,6 +43,12 @@
     \vec{r}_{#1} \xleftrightarrow{} \vec{r}_{#2}
 }
 
+\newcommand{\parAnswer}[1] {
+    \begin{center}
+        \answer{\parbox{0.8\textwidth}{ #1 } }
+    \end{center}
+}
+
 % Credit to Jim Hefferon for this environment
 \newenvironment{amatrix}[1]{%
     \left[\begin{array}{@{}*{#1}{r}|r@{}}
